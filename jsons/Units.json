@@ -1,0 +1,212 @@
+[
+
+	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
+	//更多政策单位
+	{
+		"name": "守备军",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 4,
+		"cost": 40,
+		"uniques" : ["[+100]% Strength <when defending>",
+		            "[+100]% Strength <when fighting in [Friendly Land] tiles>",
+		            "[+100]% Strength <after discovering [Iron Working]>",
+		            "[+100]% Strength <after discovering [Steel]>",
+		            "[+100]% Strength <after discovering [Gunpowder]>",
+		            "Only available <in cities with a [首都城墙]>",
+		            "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "雉众",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Swordsman",
+		"promotions": ["Morale"],
+		"uniques" : ["[-100]% maintenance costs","Only available <if [鹿台] is constructed>","Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "羽林军",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 12,
+		"cost": 60,
+		"obsoleteTech": "Banking",
+		"upgradesTo": "Pikeman",
+		"promotions": ["Morale","Formation I","Great Generals II"],
+		"uniques": ["[+1] Movement <during a Golden Age>", "[+20]% Strength <during a Golden Age>","Only available <if [上林苑] is constructed>","Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "角斗士",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 14,
+		"cost": 80,
+		"upgradesTo": "Knight",
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["[+20]% Strength <vs [Wounded] units>","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Only available <if [Circus Maximus] is constructed>","Only available <in cities with a [Colosseum]>","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 25,
+		"attackSound": "nonmetalhit"
+	},
+	//蛮族
+	{
+	    "name": "劫掠骑",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 4,
+		"rangedStrength": 9,
+		"range": 2,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "蛮族领袖",
+		//"unitType": "Civilian",
+		"unitType": "Mounted",
+		"uniqueTo": "Barbarians",
+		"replaces": "Great General",
+		"uniques": [
+		      "Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
+		      "[+20]% Strength bonus for [Military] units within [3] tiles",
+			  "All adjacent units heal [+10] HP when healing", "[+10] HP when healing",
+			  "[+60]% Strength <when defending>",
+			  "Great Person - [War]","Uncapturable"
+	    ],
+	    "obsoleteTech": "Pottery",//用于限制刷新
+	    "cost": 100,
+	    "strength": 8,
+		"movement": 3
+	},
+	{
+		"name": "开拓者",
+		"unitType": "Civilian",
+		"uniques": [
+		      "Can instantly construct a [拓荒区] improvement <by consuming this unit>",
+		                  "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+		                  "Great Person - [开拓者]", 
+		                  "Unbuildable"
+	    ],
+		"movement": 2
+	},
+	{
+		"name": "梦蝶者",
+		"unitType": "Civilian",
+		"cost": 120,
+		"requiredTech": "飞升理论",
+		"requiredResource": "圣蝶",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+2] Sight", "Only available <when religion is enabled>", "Uncapturable", "Religious Unit"
+		],
+		"movement": 3
+	},
+    //说客序列
+	{
+		"name": "说客",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 3
+        "rangedStrength": 3
+        "range": 1
+		"cost": 70,
+		"obsoleteTech": "Acoustics",//废弃
+		"upgradesTo": "劝降者",//升级
+		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
+		             "[+100]% Strength <vs cities> <when attacking>",
+		             "[+100]% Strength <vs cities>",
+		             "Ignores terrain cost",
+		             "May capture killed [Military] units",
+		             "Never appears as a Barbarian unit"],
+		"requiredTech": "Philosophy",//需要科技
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "劝降者",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 6
+        "rangedStrength": 6
+        "range": 1
+		"cost": 130,
+		"obsoleteTech": "Electricity",//废弃
+		"upgradesTo": "贿赂者",//升级
+		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
+		             "[+100]% Strength <vs cities> <when attacking>",
+		             "[+100]% Strength <vs cities>",
+		             "Ignores terrain cost",
+		             "May capture killed [Military] units",
+		             "Never appears as a Barbarian unit"],
+		"requiredTech": "Acoustics",//需要科技
+		"attackSound": "notification1",
+	},
+	{
+		"name": "贿赂者",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 9
+        "rangedStrength": 9
+        "range": 2
+		"cost": 200,
+		"obsoleteTech": "Computers",//废弃
+		"upgradesTo": "宣传队",//升级
+		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
+		             "[+100]% Strength <vs cities> <when attacking>",
+		             "[+100]% Strength <vs cities>",
+		             "Ignores terrain cost",
+		             "May capture killed [Military] units",
+		             "Never appears as a Barbarian unit"],
+		"requiredTech": "Electricity",//需要科技
+		"attackSound": "notification1",
+	},
+	{
+		"name": "宣传队",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 9
+        "rangedStrength": 12
+        "range": 4
+		"cost": 300,
+		"obsoleteTech": "Globalization",//废弃
+		"upgradesTo": "黑客",//升级
+		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
+		             "[+100]% Strength <vs cities> <when attacking>",
+		             "[+100]% Strength <vs cities>",
+		             "Ignores terrain cost",
+		             "May capture killed [Military] units",
+		             "Never appears as a Barbarian unit"],
+		"requiredTech": "Computers",//需要科技
+		"attackSound": "notification1",
+	},
+	{
+		"name": "黑客",
+		"unitType": "Archery",
+		"movement":2,
+		"strength": 1
+        "rangedStrength": 18
+        "range": 8,
+		"cost": 300,
+		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
+		             "[+100]% Strength <vs cities> <when attacking>",
+		             "[+100]% Strength <vs cities>",
+		             "Ignores terrain cost",
+		             "May capture killed [Military] units",
+		             "Never appears as a Barbarian unit"],
+		"requiredTech": "Globalization",//需要科技
+		"attackSound": "notification1",
+	},
+	//结束线
+]

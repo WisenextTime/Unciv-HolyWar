@@ -1,0 +1,15 @@
+[
+//蛮族
+	{
+		"name": "Barbarians",
+		"leaderName": "林登万",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0],
+		"uniqueName": "四方蛮夷",
+		"uniques": [
+		      "[All] units gain the [蛮族荣耀] promotion"
+		      //"No movement cost to pillage <for [All] units>"
+		],
+		"cities": ["蛮族营地","蛮族猎场","蛮族属地"]
+	}
+]

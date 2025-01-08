@@ -1,0 +1,164 @@
+[
+	// Ancient Era
+
+	// Always available
+	//更多政策建筑
+	//更多政策建筑
+	{
+		"name": "档案馆",
+		"culture": 0,
+		"cost": 90,
+		"hurryCostModifier": 30,
+		"maintenance": 0,
+		"uniques": ["[+1 Culture] per [4] population [in this city]","[+1 Happiness] per [10] population [in this city]"]
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "伟人雕塑",
+		"culture": 1,
+		"greatPersonPoints": {"开拓者":1},
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"maintenance": 1,
+		"cost": 90,
+		"hurryCostModifier": 30,
+		"uniques": [
+			"[+25]% Great Person generation [in this city]"
+		],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "首都城墙",
+		"cost": 10,
+		"cityStrength": 0,
+		"cityHealth": 100,
+		"uniques": ["Destroyed when the city is captured","Unbuildable"]
+	},
+	{
+		"name": "飞升计划",
+		"cost": 500,
+		"faith":9,
+		"requiredTech": "神秘学",
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [信仰之柱] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Triggers a global alert upon build start",
+			"作为飞升胜利条件", "Only available <when [飞升] Victory is enabled>", "Cannot be hurried"],
+		"requiredResource": "圣蝶",
+	},
+	{
+		"name": "信仰之柱",
+		"requiredBuilding": "Temple",
+		"cost": 70,
+		"faith":4
+		"uniques": ["[+1 Faith] per [3] population [in this city]"],
+		"requiredTech": "信仰驱动",
+		"requiredResource": "圣蝶",
+	},
+	{
+		"name": "晶石中枢",
+		"isNationalWonder": true,
+		"cost": 150,
+		"faith":1,
+		"science": 1,
+		"culture": 1,
+		"happiness": 1,
+		"maintenance": 3,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "神学刻印",
+		"requiredResource": "晶矿",
+	},
+	{
+		"name": "晶石节点",
+		"cost": 50,
+		"faith":1,
+		"science": 1,
+		"culture": 1,
+		"happiness": 1,
+		"maintenance": 1,
+		"uniques": ["Only available <if [晶石中枢] is constructed>"],
+		"requiredTech": "信仰驱动",
+		"requiredResource": "晶矿",
+	},
+	{
+		"name": "晶石工坊",
+		"cost": 70,
+		"production": 1,
+		"maintenance": 2,
+		"uniques": [
+		      "[+1 Production] from [晶矿] tiles [in this city]",
+		      "[+1 Production] from [圣蝶] tiles [in this city]",
+		      "[+1 Production] from [蝴蝶牧场] tiles [in this city]"
+		],
+		"requiredTech": "应用神学",
+		"requiredResource": "晶矿",
+	},
+	{
+		"name": "圣蝶园",
+		"cost": 70,
+		"faith":1,
+		"culture": 1,
+		"maintenance": 2,
+		"uniques": [
+		      "[+1 Culture] from [蝴蝶牧场] tiles [in this city]",
+		      "[+1 Culture] from [圣蝶] tiles [in this city]"
+		],
+		"requiredTech": "飞升理论",
+		"requiredResource": "圣蝶",
+	},
+	//奇观
+	{
+		"name": "晶蝶宫",
+		"cost": 300,
+		"isWonder": true,
+		"production": 1,
+		"culture": 1,
+		"faith": 3,
+		"uniques": ["Provides [2] [晶矿]","Provides [1] [圣蝶]"],
+		"requiredTech": "应用神学",
+	},
+		{
+	"name": "鹿台",
+	    "cost": 240,
+	    "hurryCostModifier": 80,
+		"culture": 2,
+		"happiness": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"开拓者":2},
+		"uniques": [
+		      "研发金属铸造前可在所有城市建造雉众",
+		      "[+1 Gold] per [2] population [in this city]",
+		      "Destroyed when the city is captured"
+		      ],
+		"requiredTech": "Agriculture",
+		"quote":"鹿台，商纣王所建的宫苑建筑，地点应在商都附近。周武王伐纣，商纣王牧野大战，纣兵战败，商纣王回到沬邑鹿台:「蒙衣其珠玉，自燔于火而死」"
+    },
+    {
+    "name": "政务厅",
+		"cost": 180,
+		"culture": 3,
+		"isNationalWonder": true,
+		"uniques": ["Cost increases by [30] per owned city","Free Social Policy"],
+		"requiredTech": "Philosophy"
+	},
+	{
+    "name": "上林苑",
+		"cost": 300,
+		"happiness": 2,
+		"culture": 1,
+		"isWonder": true,
+		"uniques": [
+		      "研发银行业前可在所有城市建造羽林军",
+		      "Free [Great General] appears"
+		      ],
+		"requiredTech": "Currency"
+		"quote":"上林苑，是汉代园林建筑，汉武帝刘彻于建元三在秦代的一个旧苑址上扩建而成的宫苑，规模宏伟，宫室众多，有多种功能和游乐内容。上林苑亦是当时汉武帝尚武之地，在此处有皇帝的亲兵羽林军，并由后来的大将军卫青统领。"
+	},
+	//微调的原版建筑
+	{
+		"name": "Circus Maximus",
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["研发骑士制度前可在有竞技场城市建造角斗士","Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Horseback Riding"
+	}
+]

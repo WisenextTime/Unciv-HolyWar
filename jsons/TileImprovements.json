@@ -1,0 +1,52 @@
+[
+		{
+		"name": "蝴蝶牧场",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"techRequired": "神学刻印",
+		"uniques": [
+		      "用信仰驱动拥有神秘力量的蝴蝶为你工作",
+		      "Tile provides yield without assigned population",
+		      "Can only be built to improve a resource",
+		      "Pillaging this improvement yields approximately [+10 Gold]"
+		      ]
+	},
+
+	{
+		"name": "拓荒区",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+		      "Tile provides yield without assigned population",
+		      "Great Improvement",
+		      //"Removes removable features when built",
+		      "Pillaging this improvement yields approximately [+100 Gold]",
+		      "Gives a defensive bonus of [50]%",
+	          //"Can be built just outside your borders",
+	          "Can be built outside your borders",
+        	  "Gain control over [all] tiles in a [1]-tile radius",
+        	  "当处在所属城市3格内会将地块产出提供给所属城市",
+        	  "[+1 Food] for each adjacent [Camp]",
+        	  "[+1 Food] for each adjacent [Fishing Boats]",
+        	  "[+1 Production] for each adjacent [Pasture]",
+        	  "[+1 Production] for each adjacent [Quarry]",
+        	  "[+2 Gold] for each adjacent [Plantation]",
+        	  "[+2 Gold] for each adjacent [蝴蝶牧场]",
+		      ],
+		"civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+//重铸蛮族荣光，我辈义不容辞
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+		      "Gives a defensive bonus of [50]%",
+		      "Can be built outside your borders",
+			  //"Adjacent enemy units ending their turn take [10] damage",
+		      "Unpillagable", //"Unbuildable"
+		],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+]

@@ -1,0 +1,48 @@
+[	
+	{
+		"name": "神圣材料",
+		"resourceType": "Strategic",
+		"gold": 5,
+		"happiness": 5,
+		"food": 5,
+		"cost": 5,
+		"civilopediaText": [
+			{"text": "充满神秘力量的材料，可以召唤极为特殊的部队降临."}
+		]
+	},
+	{
+		"name": "灰蝶",
+		"resourceType": "Bonus",
+		"revealedBy": "须渺之力",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"improvement": "蝴蝶牧场",
+		"improvementStats": {"food": -1},
+		"uniques": ["Generated on every [44] tiles <in [Grassland] tiles>","Generated on every [44] tiles <in [Plains] tiles>"],
+	},
+	{
+		"name": "晶矿",
+		"resourceType": "Strategic",
+		"revealedBy": "神学刻印",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"faith": 1,
+		"improvementStats": {"faith": -1,"production": 2},
+		"improvement": "Quarry",
+		"uniques": [
+		      "Generated on every [80] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]>"
+		      "Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in [Fresh Water] tiles>"
+		      ],
+		"majorDepositAmount": {"sparse": 8, "default": 12, "abundant": 18},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	{
+		"name": "圣蝶",
+		"resourceType": "Strategic",
+		"revealedBy": "飞升理论",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"faith": 2,
+		"improvement": "Holy site",
+		"uniques": ["Generated on every [55] tiles <in [Grassland] tiles>"],
+		"majorDepositAmount": {"sparse": 8, "default": 12, "abundant": 18},
+		"minorDepositAmount": {"sparse": 1, "default": 3, "abundant": 5}
+	}
+]

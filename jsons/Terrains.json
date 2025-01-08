@@ -1,0 +1,33 @@
+[
+	{
+		"name": "群岛",
+		"type": "Land",
+	    //"occursOn": ["Ocean"],
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [168,185,102],
+		"uniques": [
+		      //"Rare feature"
+		]
+	},
+	// Natural Wonders
+	{
+		"name": "香料群岛",
+		"type": "NaturalWonder",
+		"gold": 2,
+		"happiness": 1,
+		"occursOn": ["Ocean"],
+		"uniques": [
+		    //"Costs [-4] gold per turn when in your territory",
+		    "Must be adjacent to [6] to [6] [Ocean] tiles",
+		    "Occurs on latitudes from [0] to [30] percent of distance equator to pole",
+		    //"Neighboring tiles will convert to [Coast]",
+			"Occurs in groups of [4] to [4] tiles"],
+		"turnsInto": "群岛",
+		"impassable": false,
+		"unbuildable": false,
+		"weight": 10
+	}
+]

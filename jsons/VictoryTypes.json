@@ -1,0 +1,9 @@
+[
+    {
+        "name": "飞升",
+        "victoryScreenHeader":"让全世界信仰你的宗教\n并建造飞升计划",
+        "milestones": ["Become the world religion","Build [飞升计划]"],
+        "victoryString": "你建立了世间唯一的真理，掌握了通向神圣的道路。许多假神和异教被你打倒了，执掌着神的权柄，你将永远照亮这世界",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    }
+]
