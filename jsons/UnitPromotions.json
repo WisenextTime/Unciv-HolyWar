@@ -3,4 +3,199 @@
 		"name": "蛮族荣耀",
 		"uniques": ["Unit will heal every turn, even if it performs an action","[-5] HP when healing"]
 	},
+	//圣战士
+	{
+		"name": "守护I",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "守护II",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+		"prerequisites": ["守护I"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "守护III",
+		"uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+		"prerequisites": ["守护II"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "杀伐I",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "杀伐II",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"],
+		"prerequisites": ["杀伐I"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "杀伐III",
+		"uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"],
+		"prerequisites": ["杀伐II"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "遁法I",
+		"uniques": ["[+1] Movement"],
+		"prerequisites": ["守护II","杀伐II"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "遁法II",
+		"uniques": ["[+1] Movement"],
+		"prerequisites": ["遁法I"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "隐法I",
+		"uniques": ["[+50]% Strength <vs [Ranged] units> <when defending>"],
+		"prerequisites": ["守护II","杀伐II"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "隐法II",
+		"uniques": ["[+50]% Strength <vs [Ranged] units> <when defending>"],
+		"prerequisites": ["隐法I"],
+		"unitTypes": ["圣战士"]
+	},
+	{
+		"name": "圣法",
+		"uniques": ["[+20]% Strength","[1] Sight"],
+		"prerequisites": ["守护III","杀伐III"],
+		"unitTypes": ["圣战士"]
+	}
+	//神术士
+	{
+		"name": "御法I",
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["神术士"]
+	},
+		{
+		"name": "御法II",
+		"uniques": ["[+15]% Strength <when defending>"],
+		"prerequisites": ["御法I"],
+		"unitTypes": ["神术士"]
+	},
+	{
+		"name": "御法III",
+		"uniques": ["[+20]% Strength <when defending>"],
+		"prerequisites": ["御法II"],
+		"unitTypes": ["神术士"]
+	},
+	{
+		"name": "行法I",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["神术士"]
+	},
+		{
+		"name": "行法II",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"prerequisites": ["行法I"],
+		"unitTypes": ["神术士"]
+	},
+	{
+		"name": "行法III",
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"prerequisites": ["行法II"],
+		"unitTypes": ["神术士"]
+	},
+	{
+		"name": "速法I",
+		"uniques": ["[+1] Movement"],
+		"prerequisites": ["御法II","行法II"],
+		"unitTypes": ["神术士"]
+	},
+	{
+		"name": "速法II",
+		"uniques": ["[+1] Movement"],
+		"prerequisites": ["速法I"],
+		"unitTypes": ["神术士"]
+	},
+	{
+		"name": "能法I",
+		"uniques": ["[1] Range"],
+		"prerequisites": ["御法II","行法II"],
+		"unitTypes": ["神术士"]
+	},
+	{
+		"name": "能法II",
+		"uniques": ["[1] Range"],
+		"prerequisites": ["能法I"],
+		"unitTypes": ["神术士"]
+	},
+	{
+		"name": "神法",
+		"uniques": ["[+20]% Strength","[1] Sight"],
+		"prerequisites": ["御法III","行法III"],
+		"unitTypes": ["神术士"]
+	},
+	//灵物-鸽
+    {
+		"name": "升腾I",
+		"uniques": ["[+10]% Strength"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	{
+		"name": "升腾II",
+		"uniques": ["[+10]% Strength"],
+		"prerequisites": ["升腾I"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	{
+		"name": "升腾III",
+		"uniques": ["[+10]% Strength"],
+		"prerequisites": ["升腾II"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	{
+		"name": "升腾IV",
+		"uniques": ["[+10]% Strength"],
+		"prerequisites": ["升腾III"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	{
+		"name": "升腾V",
+		"uniques": ["[+10]% Strength"],
+		"prerequisites": ["升腾IV"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	{
+		"name": "汇聚I",
+		"uniques": ["[+4] HP when healing"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	{
+		"name": "汇聚II",
+		"uniques": ["[+4] HP when healing"],
+		"prerequisites": ["汇聚I"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	{
+		"name": "汇聚III",
+		"uniques": ["[+4] HP when healing"],
+		"prerequisites": ["汇聚II"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	{
+		"name": "汇聚IV",
+		"uniques": ["[+4] HP when healing"],
+		"prerequisites": ["汇聚III"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	{
+		"name": "汇聚V",
+		"uniques": ["[+4] HP when healing"],
+		"prerequisites": ["汇聚IV"],
+		"unitTypes": ["灵物-鸽"]
+	},
+	//奇观
+	{
+		"name": "行与天之上",
+		"uniques": ["[+20]% Strength bonus for [Military] units within [5] tiles"]
+	},
+	
 ]

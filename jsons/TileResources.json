@@ -2,10 +2,10 @@
 	{
 		"name": "神圣材料",
 		"resourceType": "Strategic",
-		"gold": 5,
-		"happiness": 5,
-		"food": 5,
-		"cost": 5,
+		"gold": 0,
+		"happiness": 0,
+		"food": 0,
+		"cost": 0,
 		"civilopediaText": [
 			{"text": "充满神秘力量的材料，可以召唤极为特殊的部队降临."}
 		]

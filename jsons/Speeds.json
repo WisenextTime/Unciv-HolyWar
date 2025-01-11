@@ -1,0 +1,58 @@
+[
+    {
+        "name": "光阴似箭",
+        "modifier": 0.3,
+        "productionCostModifier": 0.3,
+        "goldCostModifier": 0.3,
+        "scienceCostModifier": 0.3,
+        "cultureCostModifier": 0.3,
+        "faithCostModifier": 0.3,
+        "improvementBuildLengthModifier": 0.3,
+        "barbarianModifier": 0.3,
+        "goldGiftModifier": 0.3,
+        "cityStateTributeScalingInterval": 3,
+        "goldenAgeLengthModifier": 0.45,
+        "religiousPressureAdjacentCity": 18,
+        "peaceDealDuration": 5,
+        "dealDuration": 15,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn":  133, "untilTurn": 22},
+            {"yearsPerTurn":  83, "untilTurn": 41},
+            {"yearsPerTurn":  66, "untilTurn": 160},
+            {"yearsPerTurn":  34, "untilTurn": 63},
+            {"yearsPerTurn":   17, "untilTurn": 81},
+            {"yearsPerTurn":   7, "untilTurn": 96},
+            {"yearsPerTurn":   4, "untilTurn": 132},
+            {"yearsPerTurn":   2, "untilTurn": 150}
+        ]
+    },
+    {
+        "name": "极快",
+        "modifier": 0.45,
+        "productionCostModifier": 0.45,
+        "goldCostModifier": 0.45,
+        "scienceCostModifier": 0.45,
+        "cultureCostModifier": 0.45,
+        "faithCostModifier": 0.45,
+        "improvementBuildLengthModifier": 0.45,
+        "barbarianModifier": 0.45,
+        "goldGiftModifier": 0.45,
+        "cityStateTributeScalingInterval": 4.0,
+        "goldenAgeLengthModifier": 0.6,
+        "religiousPressureAdjacentCity": 12,
+        "peaceDealDuration": 8,
+        "dealDuration": 20,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn":  80, "untilTurn": 37},
+            {"yearsPerTurn":  50, "untilTurn": 68},
+            {"yearsPerTurn":  40, "untilTurn": 80},
+            {"yearsPerTurn":  20, "untilTurn": 105},
+            {"yearsPerTurn":  10, "untilTurn": 135},
+            {"yearsPerTurn":   4, "untilTurn": 160},
+            {"yearsPerTurn":   2, "untilTurn": 220},
+            {"yearsPerTurn":   1, "untilTurn": 250}
+        ]
+    }
+]

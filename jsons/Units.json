@@ -101,6 +101,167 @@
 	    ],
 		"movement": 2
 	},
+	//信仰序列
+	{
+        "name": "行天门徒",//名字
+        "unitType": "神术士",//类型
+        "movement": 1,//移动步数
+        "strength": 2,//近战能力
+        "rangedStrength": 6//远程能力
+        "range": 3//射程
+        "cost": 40,//制造
+        "obsoleteTech": "神学刻印",//废弃
+		"upgradesTo": "行天教徒",//升级
+        "requiredTech": "行天神迹",//需要科技
+        "uniques": ["[-40]% Strength <vs [Melee] units> <when attacking>",
+                   "[-40]% Strength <vs [Ranged] units> <when defending>",
+                   "[-40]% Strength <vs cities>"
+        ],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "行天教徒",//名字
+        "unitType": "神术士",//类型
+        "movement": 1,//移动步数
+        "strength": 4,//近战能力
+        "rangedStrength": 9//远程能力
+        "range": 3//射程
+        "cost": 50,//制造
+        "obsoleteTech": "飞升理论",//废弃
+		"upgradesTo": "行天司铎",//升级
+        "requiredTech": "神学刻印",//需要科技
+        "uniques": ["[-35]% Strength <vs [Melee] units> <when attacking>",
+                   "[-35]% Strength <vs [Ranged] units> <when defending>",
+                   "[-35]% Strength <vs cities>"
+        ],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "行天司铎",//名字
+        "unitType": "神术士",//类型
+        "movement": 1,//移动步数
+        "strength": 7,//近战能力
+        "rangedStrength": 14//远程能力
+        "range": 3//射程
+        "cost": 90,//制造
+        "obsoleteTech": "秘学原理",//废弃
+		"upgradesTo": "行天主教",//升级
+        "requiredTech": "飞升理论",//需要科技
+        "promotions": [],
+        "uniques": ["[-30]% Strength <vs [Melee] units> <when attacking>",//单位特性
+                   "[-30]% Strength <vs [Ranged] units> <when defending>",
+                   "[-30]% Strength <vs cities>"
+        ],
+        "attackSound": "arrow"
+    },
+	{
+        "name": "行天主教",//名字
+        "unitType": "神术士",//类型
+        "movement": 1,//移动步数
+        "strength": 14,//近战能力
+        "rangedStrength": 20//远程能力
+        "range": 3//射程
+        "cost": 140,//制造
+        "obsoleteTech": "法化秘研",//废弃
+		"upgradesTo": "行天执事",//升级
+        "requiredTech": "秘学原理",//需要科技
+        "promotions": [],
+        "uniques": ["[-25]% Strength <vs [Melee] units> <when attacking>",//单位特性
+                   "[-25]% Strength <vs [Ranged] units> <when defending>",
+                   "[-25]% Strength <vs cities>"
+        ],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "行天执事",//名字
+        "unitType": "神术士",//类型
+        "movement": 1,//移动步数
+        "strength": 25,//近战能力
+        "rangedStrength": 35//远程能力
+        "range": 3//射程
+        "cost": 250,//制造
+        "requiredTech": "法化秘研",//需要科技
+        "obsoleteTech": "永动力法",//废弃
+        "promotions": [],
+        "uniques": ["[-20]% Strength <vs [Melee] units> <when attacking>",//单位特性
+                   "[-20]% Strength <vs [Ranged] units> <when defending>",
+                   "[-20]% Strength <vs cities>"
+        ],
+        "attackSound": "arrow"
+    },
+    {
+		"name": "行天勇士",
+		"unitType": "圣战士",
+		"movement": 3,
+		"strength": 15,
+		"cost": 90,
+		"requiredTech": "神学刻印",
+		"obsoleteTech": "飞升理论",
+		"requiredResource": "晶矿",
+		"promotions": [],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Can move after attacking", "[20]% Strength <when attacking>"],
+		"attackSound": "metalhit"
+	},
+    {
+		"name": "行天骑士",
+		"unitType": "圣战士",
+		"movement": 4,
+		"strength": 30,
+		"cost": 245,
+		"requiredTech": "飞升理论",
+		"obsoleteTech": "秘学科研",
+		"requiredResource": "神圣材料",
+		"promotions": [],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Can move after attacking", "[20]% Strength <when attacking>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "行天圣斗士",
+		"unitType": "圣战士",
+		"movement": 5,
+		"strength": 55,
+		"cost": 380,
+		"requiredTech": "秘学科研",
+		"obsoleteTech": "须渺无尽学",
+		"requiredResource": "神圣材料",
+		"promotions": [],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Can move after attacking", "[20]% Strength <when attacking>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "和平鸽",
+		"unitType": "灵物-鸽",
+		"movement": 6,
+		"strength": 12,
+		"rangedStrength": 12,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 100,
+		"requiredTech": "信仰驱动",
+		"obsoleteTech": "秘学原理",
+		//"upgradesTo": "Jet Fighter",
+		"uniques": ["[+20]% Strength <vs [Melee] units>",
+		            "[-20]% Strength <vs [Ranged] units>"
+		            ],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "信天鸽",
+		"unitType": "灵物-鸽",
+		"movement": 10,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 300,
+		"requiredTech": "秘学原理",
+		//"upgradesTo": "Jet Fighter",
+		"uniques": ["[+20]% Strength <vs [Melee] units>",
+		            "[-20]% Strength <vs [Ranged] units>"
+		           //"Invisible to others"
+		           ],
+		"attackSound": "arrow"
+	},
 	{
 		"name": "梦蝶者",
 		"unitType": "Civilian",
@@ -122,7 +283,7 @@
 		"strength": 3
         "rangedStrength": 3
         "range": 1
-		"cost": 70,
+		"cost": 30,
 		"obsoleteTech": "Acoustics",//废弃
 		"upgradesTo": "劝降者",//升级
 		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
@@ -141,7 +302,7 @@
 		"strength": 6
         "rangedStrength": 6
         "range": 1
-		"cost": 130,
+		"cost": 50,
 		"obsoleteTech": "Electricity",//废弃
 		"upgradesTo": "贿赂者",//升级
 		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
@@ -160,7 +321,7 @@
 		"strength": 9
         "rangedStrength": 9
         "range": 2
-		"cost": 200,
+		"cost": 90,
 		"obsoleteTech": "Computers",//废弃
 		"upgradesTo": "宣传队",//升级
 		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
@@ -179,7 +340,7 @@
 		"strength": 9
         "rangedStrength": 12
         "range": 4
-		"cost": 300,
+		"cost": 200,
 		"obsoleteTech": "Globalization",//废弃
 		"upgradesTo": "黑客",//升级
 		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
@@ -199,7 +360,7 @@
         "rangedStrength": 18
         "range": 8,
 		"cost": 300,
-		"uniques" : ["[+100]% Strength <vs [Wounded] units> <when attacking>",
+		"uniques" : ["[+50]% Strength <vs [Wounded] units> <when attacking>",
 		             "[+100]% Strength <vs cities> <when attacking>",
 		             "[+100]% Strength <vs cities>",
 		             "Ignores terrain cost",

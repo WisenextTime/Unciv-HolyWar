@@ -14,6 +14,20 @@
 		]
 	},
 	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "行天神迹",
+				"row": 4,
+				"quote": "'神力降于吾身，吾行于天之间，于天界俯视人间。' ——行天教教主-酱油瓶",
+				"uniques": ["Starting tech","'神力降于吾身，吾行于天之间，于天界俯视人间。' ——行天教教主-酱油瓶"]
+			}
+		]
+	},
+	{
 		"columnNumber": 1,
 		"era": "Ancient era",
 		"techCost": 35,
@@ -29,6 +43,7 @@
 			{
 				"name": "须渺之力",
 				"row": 4,
+				"prerequisites": ["行天神迹"],
 				"quote": "须渺之力是一种神秘的自然力量，它无处不在无所不能。须渺之力可以被虔诚的信仰吸引并捕获，我们称捕获得到的力量为天之力。'' ——行天教教主-酱油瓶",
 				"uniques": []
 			},
@@ -124,8 +139,8 @@
 				"cost": 85,
 				"row": 4,
 				"prerequisites": ["须渺之力","Writing"],
-				"uniques": [],
-				"quote": "用"
+				"uniques": [""],
+				"quote": "怀揣着足够的虔诚去撰写，哪怕文字也可以具象为力量。——魅魔萝莉圣女-曦曦"
 			},
 			{
 				"name": "Horseback Riding",
@@ -165,6 +180,13 @@
 				"row": 3,
 				"prerequisites": ["Writing"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+			},
+			{
+				"name": "应用神学",
+				"row": 6,
+				"prerequisites": ["神学刻印","Mathematics"],
+				"uniques": [],
+				"quote": "总有人质疑神的伟大，不相信神的存在。而现在，借助一些中介的引导，我将让神力将降临来造福我等。那时，将不会再有人质疑神的伟大。——行天大长老-黑白战役"
 			},
 			{
 				"name": "Currency",
@@ -215,11 +237,12 @@
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
-				"name": "应用神学",
+				"name": "神圣塑造",
+				"cost": 85,
 				"row": 6,
-				"prerequisites": ["神学刻印"],
-				"uniques": [],
-				"quote": "总有人质疑神的伟大，不相信神的存在。而现在，借助一些中介的引导，我将让神力将降临来造福我等。那时，将不会再有人质疑神的伟大。——行天大长老-黑白战役"
+				"prerequisites": ["应用神学"],
+				"uniques": [""],
+				"quote": "晶石是神圣的优良载体，注入适量的信仰，晶石可以被塑造成任何你想要的样子。——行天祭祀-御坂土豆"
 			},
 			{
 				"name": "Guilds",
@@ -260,7 +283,7 @@
 			{
 				"name": "飞升理论",
 				"row": 5,
-				"prerequisites": ["Theology","信仰驱动","应用神学"],
+				"prerequisites": ["Theology","信仰驱动","神圣塑造"],
 				"uniques": [],
 				"quote":"当你的力量足够强大，对神足够忠诚，你的灵魂可以飞升，与神明一起掌控这世界，直至永恒——行天教副教主"
 			},
@@ -355,7 +378,7 @@
 				"row": 5,
 				"prerequisites": ["飞升理论"],
 				"uniques": [],
-				"quote": "'须渺之力自远古便被我们发现、使用，进来更是产生了如飞升计划这般的“神迹”。现如今，我们有必要从完全理性的角度重新认识这种力量以开发其潜力，让这种力量更好造福教会人民——行天教大长老-黑白战役"
+				"quote": "'须渺之力自远古便被我们发现、使用，进来更是产生了如飞升计划这般的“神迹”。现如今，我们有必要从完全理性的角度重新认识这种力量以开发其潜力，让这种力量更好造福教会人民——天龍神司-沫格"
 			},
 			{
 				"name": "Economics",
@@ -389,6 +412,13 @@
 				"row": 2,
 				"prerequisites": ["Navigation","Architecture"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+			},
+			{
+				"name": "秘学原理",
+				"row": 3,
+				"prerequisites": ["神秘学","Education"],
+				"uniques": [],
+				"quote": "'随着对神秘学探寻的愈发深入，我们越是发现神秘学的起源源远流长。从石器时代祭祀的探索到今天的主教，须渺之力伴随人类从古至今。——蓝空长老-蓝空侠客"
 			},
 			{
 				"name": "Scientific Theory",
@@ -444,9 +474,9 @@
 			{
 				"name": "秘学科研",
 				"row": 5,
-				"prerequisites": ["神秘学","Scientific Theory"],
+				"prerequisites": ["秘学原理","Scientific Theory"],
 				"uniques": [],
-				"quote": "所谓神力，不过是宗教为神化自身的谎言。在科学理论的指导下，结合前人神秘学研究成果，我们已经构建出能完美解释须渺之力的神秘学理论并加以验证。而我将成为先驱，利用这份神秘学知识与愿意追随我的人一起建立一个真正的乌托邦——乌托邦创建者-虫虫"
+				"quote": "即便须渺之力真为神力，我相信我们也可以在秘学原理的指导下探求其本质。总结前人千百年来神秘学研究成果，我们试图构建出能完美解释须渺之力的神秘学理论并加以验证。而我愿成为先驱，利用现有的成果建立一个真正的乌托邦——乌托邦创建者-虫虫"
 			},
 			{
 				"name": "Steam Power",

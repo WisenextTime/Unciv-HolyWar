@@ -1,0 +1,15 @@
+[
+    {
+        "name": "神术士",
+        "movementType": "Land"
+    },
+    {
+        "name": "圣战士",
+        "movementType": "Land"
+    },
+    {
+        "name": "灵物-鸽",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    }
+]

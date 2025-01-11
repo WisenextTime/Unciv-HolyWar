@@ -1,0 +1,748 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/上林苑
+  rotate: false
+  xy: 1192, 182
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+BuildingIcons/伟人雕塑
+  rotate: false
+  xy: 1476, 466
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+BuildingIcons/信仰之柱
+  rotate: false
+  xy: 4, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/圣蝶园
+  rotate: false
+  xy: 220, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/塑造神坛
+  rotate: false
+  xy: 328, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/政务厅
+  rotate: false
+  xy: 198, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+BuildingIcons/晶石中枢
+  rotate: false
+  xy: 1192, 86
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+BuildingIcons/晶石工坊
+  rotate: false
+  xy: 220, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/晶石节点
+  rotate: false
+  xy: 1572, 466
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+BuildingIcons/晶蝶宫
+  rotate: false
+  xy: 1620, 466
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+BuildingIcons/档案馆
+  rotate: false
+  xy: 294, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+BuildingIcons/矗天神碑
+  rotate: false
+  xy: 544, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/行天教信仰柱群
+  rotate: false
+  xy: 760, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/行天碑
+  rotate: false
+  xy: 976, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/飞升计划
+  rotate: false
+  xy: 1300, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/鹿台
+  rotate: false
+  xy: 486, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/中央集权
+  rotate: false
+  xy: 1262, 270
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/全民皆兵
+  rotate: false
+  xy: 1300, 310
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/军事训练
+  rotate: false
+  xy: 1368, 378
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/军用工坊
+  rotate: false
+  xy: 1408, 418
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/商业中心
+  rotate: false
+  xy: 1860, 486
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/国人政治
+  rotate: false
+  xy: 534, 54
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/均输平准
+  rotate: false
+  xy: 1262, 242
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/城市化
+  rotate: false
+  xy: 1328, 310
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/尚武文化
+  rotate: false
+  xy: 1368, 350
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/屯田令
+  rotate: false
+  xy: 1436, 418
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/广惠仓
+  rotate: false
+  xy: 1888, 486
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/思想钳制
+  rotate: false
+  xy: 562, 54
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/户籍制度
+  rotate: false
+  xy: 1916, 486
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/手工业者
+  rotate: false
+  xy: 590, 54
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/法理统治
+  rotate: false
+  xy: 1944, 486
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/皇权至高
+  rotate: false
+  xy: 618, 54
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/监察机构
+  rotate: false
+  xy: 1972, 486
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/统一思想
+  rotate: false
+  xy: 646, 54
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/行政区划
+  rotate: false
+  xy: 2000, 486
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+PolicyIcons/鼓励生育
+  rotate: false
+  xy: 674, 54
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+ReligionIcons/行天教
+  rotate: false
+  xy: 976, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/圣蝶
+  rotate: false
+  xy: 112, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/晶矿
+  rotate: false
+  xy: 246, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+ResourceIcons/灰蝶
+  rotate: false
+  xy: 436, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/蝴蝶牧场
+  rotate: false
+  xy: 436, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/神圣材料
+  rotate: false
+  xy: 652, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/信仰驱动
+  rotate: false
+  xy: 4, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/应用神学
+  rotate: false
+  xy: 220, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/探求本质
+  rotate: false
+  xy: 436, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/永动力法
+  rotate: false
+  xy: 544, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/法化秘研
+  rotate: false
+  xy: 328, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/神圣锻造
+  rotate: false
+  xy: 436, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/神学刻印
+  rotate: false
+  xy: 544, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/神秘学
+  rotate: false
+  xy: 652, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/秘学原理
+  rotate: false
+  xy: 760, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/秘学科研
+  rotate: false
+  xy: 544, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/造神计划
+  rotate: false
+  xy: 1192, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/须渺之力
+  rotate: false
+  xy: 976, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/须渺无尽学
+  rotate: false
+  xy: 1084, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/飞升理论
+  rotate: false
+  xy: 1192, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/圣蝶
+  rotate: false
+  xy: 1300, 338
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/拓荒区
+  rotate: false
+  xy: 4, 4
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/晶矿
+  rotate: false
+  xy: 1408, 446
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/灰蝶
+  rotate: false
+  xy: 82, 14
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/香料群岛
+  rotate: false
+  xy: 1192, 230
+  size: 62, 60
+  orig: 62, 60
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/劝降者
+  rotate: false
+  xy: 150, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/宣传队
+  rotate: false
+  xy: 150, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/贿赂者
+  rotate: false
+  xy: 150, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/黑客
+  rotate: false
+  xy: 150, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/说客
+  rotate: false
+  xy: 438, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/信天鸽
+  rotate: false
+  xy: 112, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/劝降者
+  rotate: false
+  xy: 4, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/宣传队
+  rotate: false
+  xy: 4, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/贿赂者
+  rotate: false
+  xy: 4, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/和平鸽
+  rotate: false
+  xy: 220, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/守备军
+  rotate: false
+  xy: 1192, 134
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/开拓者
+  rotate: false
+  xy: 328, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/拓荒区
+  rotate: false
+  xy: 328, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/掠劫骑
+  rotate: false
+  xy: 1524, 466
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/梦蝶者
+  rotate: false
+  xy: 436, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/玄甲军
+  rotate: false
+  xy: 1668, 466
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/羽林军
+  rotate: false
+  xy: 342, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/蛮族领袖
+  rotate: false
+  xy: 390, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/行天主教
+  rotate: false
+  xy: 652, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/行天使者
+  rotate: false
+  xy: 760, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/行天勇士
+  rotate: false
+  xy: 868, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/行天司铎
+  rotate: false
+  xy: 652, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/行天圣斗士
+  rotate: false
+  xy: 760, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/行天执事
+  rotate: false
+  xy: 868, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/行天教徒
+  rotate: false
+  xy: 868, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/行天门徒
+  rotate: false
+  xy: 1084, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/行天骑士
+  rotate: false
+  xy: 868, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/角斗士
+  rotate: false
+  xy: 1764, 466
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/说客
+  rotate: false
+  xy: 976, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/雉众
+  rotate: false
+  xy: 1812, 466
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/黑客
+  rotate: false
+  xy: 1084, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/升腾
+  rotate: false
+  xy: 112, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/能法
+  rotate: false
+  xy: 112, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/圣法
+  rotate: false
+  xy: 4, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/神法
+  rotate: false
+  xy: 4, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/行与天之上
+  rotate: false
+  xy: 4, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/守护
+  rotate: false
+  xy: 112, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/御法
+  rotate: false
+  xy: 112, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/汇聚
+  rotate: false
+  xy: 112, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/隐法
+  rotate: false
+  xy: 112, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/杀伐
+  rotate: false
+  xy: 328, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/行法
+  rotate: false
+  xy: 328, 190
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/蛮族荣耀
+  rotate: false
+  xy: 1716, 466
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/速法
+  rotate: false
+  xy: 1084, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/遁法
+  rotate: false
+  xy: 1084, 298
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

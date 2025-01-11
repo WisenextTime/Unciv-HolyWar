@@ -296,7 +296,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[-20]% Gold cost of upgrading <for [Military] units>",
+            "[-10]% Gold cost of upgrading <for [Military] units>",
             "Earn [5]% of killed [Military] unit's [Cost] as [Gold]"
         ],
         "policies": [
@@ -314,7 +314,7 @@
                 "name": "军事训练",
                 "uniques": [
                     "[+10]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] Experience [in all cities]"
+                    "New [Military] units start with [10] Experience [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -347,7 +347,7 @@
             {
                 "name": "全民皆兵",
                 "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                    "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
                     "Free [雉众] appears",
                     "Free [雉众] appears",
                     "Free [雉众] appears",
@@ -363,7 +363,7 @@
             {
                 "name": "耕战政策 Complete",
                 "uniques": [
-                    "[+15]% Strength <for [Military] units>",
+                    "[+10]% Strength <for [Military] units>",
                     "Free [Great General] appears"
                 ]
             }
@@ -521,13 +521,13 @@
             "Scientific": 10
         },
         "uniques": [
-             "[-10]% Culture cost of adopting new Policies"
+             "[+25]% [Culture] [in capital]"
              ],
         "policies": [
             {
                 "name": "行政区划",
                 "uniques": [
-                    "[+1 Happiness, +1 Culture] [in all cities]",
+                    "[+1 Culture, -1 Gold] [in all cities]",
                     "Empire enters golden age"
                 ],
                 "row": 1,
@@ -539,7 +539,7 @@
                     "[+100]% Production when constructing [Granary] buildings [in all cities connected to capital]",
                     "[-10]% Unhappiness from [Population] [in all cities connected to capital]",
                     "[+5]% growth [in all cities connected to capital]",
-                    "[+2 Gold] from each Trade Route"
+                    "[+1 Gold] from each Trade Route"
                 ],
                 "requires": ["行政区划"],
                 "row": 2,
@@ -551,6 +551,7 @@
                     "[+1 Production] <in cities with at least [3] [Population]>",
                     "[+1 Production] <in cities with at least [6] [Population]>",
                     "[+1 Production] <in cities with at least [9] [Population]>",
+                    "[-1 Happiness, -1 Gold] [in all cities]"
                     "[+1 Gold] per [4] population [in all cities]"
                 ],
                 "requires": ["行政区划"],
@@ -570,8 +571,8 @@
                 "name": "广惠仓",
                 "requires": ["户籍制度", "均输平准"],
                 "uniques": [
-                    "[-15]% Unhappiness from [Population] [in all non-occupied cities]",
-                    "[+30]% Strength for cities <when defending>",
+                    "[-10]% Unhappiness from [Population] [in all cities]",
+                    "[+20]% Strength for cities <when defending>",
                     "[+1 Happiness, +1 Culture] from every [Granary]",
                     "[+5]% growth [in all cities]",
                 ],
