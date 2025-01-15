@@ -253,6 +253,15 @@
 		"uniques": ["Triggers a global alert upon completion","Cannot be hurried"]
 		"requiredTech": "须渺无尽学",
 	},
+	{
+		"name": "卫道士",
+		"cost": 0,
+		"culture": 1,
+		"faith": 2,
+		"cityStrength": 2,
+		"cityHealth": 25,
+		"uniques": ["Unbuildable", "Destroyed when the city is captured","Free [民兵] appears","Only available <when religion is enabled>"]
+	},
 	//大航海
 	{
 		"name": "优质作物种子",
@@ -268,7 +277,17 @@
 		"isNationalWonder": true,
 		"uniques": ["研发骑士制度前可在有竞技场城市建造角斗士","Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Horseback Riding"
-	}
+	},
+	{
+		"name": "Grand Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>","Gain a free [Follower] belief"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
 	{
 		"name": "Walls",
 		"cityStrength": 5,

@@ -25,6 +25,27 @@ BuildingIcons/信仰之柱
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/飞升柱
+  rotate: false
+  xy: 4, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/卫道士
+  rotate: false
+  xy: 1632, 26
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+BuildingIcons/首都城墙
+  rotate: false
+  xy: 1632, 26
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
 BuildingIcons/圣化蝶园
   rotate: false
   xy: 4, 82
@@ -46,9 +67,16 @@ BuildingIcons/塑造圣坛
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/塑造神坛
+  rotate: false
+  xy: 328, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/政务厅
   rotate: false
-  xy: 1680, 26
+  xy: 1728, 26
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -62,7 +90,7 @@ BuildingIcons/无尽神殿
   index: -1
 BuildingIcons/晶石中枢
   rotate: false
-  xy: 246, 34
+  xy: 294, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -76,35 +104,35 @@ BuildingIcons/晶石工坊
   index: -1
 BuildingIcons/晶石节点
   rotate: false
-  xy: 1728, 26
+  xy: 1776, 26
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 BuildingIcons/晶蝶宫
   rotate: false
-  xy: 1776, 26
+  xy: 1824, 26
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 BuildingIcons/末日祭坛
   rotate: false
-  xy: 1824, 26
+  xy: 1872, 26
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 BuildingIcons/末日预言
   rotate: false
-  xy: 1824, 26
+  xy: 1872, 26
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 BuildingIcons/档案馆
   rotate: false
-  xy: 390, 34
+  xy: 438, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -153,7 +181,7 @@ BuildingIcons/飞升计划
   index: -1
 BuildingIcons/鹿台
   rotate: false
-  xy: 822, 34
+  xy: 918, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -167,14 +195,14 @@ ImprovementIcons/拓荒区
   index: -1
 ImprovementIcons/挖掘I
   rotate: false
-  xy: 1976, 282
+  xy: 1680, 26
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 ImprovementIcons/挖掘II
   rotate: false
-  xy: 1976, 282
+  xy: 1680, 26
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -216,7 +244,7 @@ PolicyIcons/商业中心
   index: -1
 PolicyIcons/国人政治
   rotate: false
-  xy: 870, 54
+  xy: 966, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
@@ -237,84 +265,84 @@ PolicyIcons/城市化
   index: -1
 PolicyIcons/尚武文化
   rotate: false
-  xy: 898, 54
+  xy: 994, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/屯田令
   rotate: false
-  xy: 926, 54
+  xy: 1022, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/广惠仓
   rotate: false
-  xy: 954, 54
+  xy: 1050, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/思想钳制
   rotate: false
-  xy: 982, 54
+  xy: 1078, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/户籍制度
   rotate: false
-  xy: 1010, 54
+  xy: 1106, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/手工业者
   rotate: false
-  xy: 1038, 54
+  xy: 1134, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/法理统治
   rotate: false
-  xy: 1066, 54
+  xy: 1162, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/皇权至高
   rotate: false
-  xy: 1094, 54
+  xy: 1190, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/监察机构
   rotate: false
-  xy: 1122, 54
+  xy: 1218, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/统一思想
   rotate: false
-  xy: 1150, 54
+  xy: 1246, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/行政区划
   rotate: false
-  xy: 1178, 54
+  xy: 1274, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 PolicyIcons/鼓励生育
   rotate: false
-  xy: 1206, 54
+  xy: 1302, 54
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
@@ -335,21 +363,21 @@ ResourceIcons/圣蝶
   index: -1
 ResourceIcons/大型宝藏
   rotate: false
-  xy: 1632, 26
+  xy: 198, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 ResourceIcons/小型宝藏
   rotate: false
-  xy: 1632, 26
+  xy: 198, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 ResourceIcons/晶矿
   rotate: false
-  xy: 294, 34
+  xy: 342, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -706,7 +734,7 @@ UnitIcons/和平鸽
   index: -1
 UnitIcons/守备军
   rotate: false
-  xy: 198, 34
+  xy: 1976, 282
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -739,9 +767,16 @@ UnitIcons/战争天使
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/掠劫骑
+  rotate: false
+  xy: 246, 34
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
 UnitIcons/末日使徒
   rotate: false
-  xy: 342, 34
+  xy: 390, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -755,28 +790,28 @@ UnitIcons/梦蝶者
   index: -1
 UnitIcons/民兵
   rotate: false
-  xy: 1872, 26
+  xy: 486, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/玄甲军
   rotate: false
-  xy: 534, 34
+  xy: 630, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/羽林军
   rotate: false
-  xy: 582, 34
+  xy: 678, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitIcons/蛮族领袖
   rotate: false
-  xy: 678, 34
+  xy: 774, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -874,7 +909,7 @@ UnitIcons/行天鸽
   index: -1
 UnitIcons/角斗士
   rotate: false
-  xy: 726, 34
+  xy: 822, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -895,7 +930,7 @@ UnitIcons/贿赂者
   index: -1
 UnitIcons/雉众
   rotate: false
-  xy: 774, 34
+  xy: 870, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -1000,21 +1035,21 @@ UnitPromotionIcons/行法
   index: -1
 UnitPromotionIcons/满载I
   rotate: false
-  xy: 438, 34
+  xy: 534, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitPromotionIcons/满载II
   rotate: false
-  xy: 486, 34
+  xy: 582, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitPromotionIcons/蛮族荣耀
   rotate: false
-  xy: 630, 34
+  xy: 726, 34
   size: 40, 40
   orig: 40, 40
   offset: 0, 0

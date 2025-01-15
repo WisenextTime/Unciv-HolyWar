@@ -1,9 +1,1 @@
-{
-    "isBaseRuleset": false,
-    uniques:[
-         //Can convert gold to science with sliders,
-         Allow City States to spawn with additional units,
-         "Can trade civilization introductions for [100] Gold"
-         ],
-    constants:{maxXPfromBarbarians:150}
-}
+{"constants":{"maxXPfromBarbarians":150},"modUrl":"https://github.com/WisenextTime/Unciv-HolyWar","defaultBranch":"main","author":"WisenextTime","lastUpdated":"2025-01-15T04:03:09Z","modSize":493,"topics":["unciv-mod","unciv-mod-expansions"],"uniques":["Allow City States to spawn with additional units","Can trade civilization introductions for [100] Gold"]}

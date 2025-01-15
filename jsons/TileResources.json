@@ -53,6 +53,7 @@
 		"terrainsCanBeFoundOn": ["Coast","Atoll"],
 		"revealedBy": "Sailing",
 		"improvement": "挖掘I",
+		"improvementStats": {"production": -1},
 		"uniques": ["Generated on every [10] tiles <in [Water] tiles>"]
 	},
 	{
@@ -61,6 +62,7 @@
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"revealedBy": "Sailing",
 		"improvement": "挖掘II",
+		"improvementStats": {"production": -1},
 		"uniques": ["Generated on every [10] tiles <in [Water] tiles>"]
 	}
 ]

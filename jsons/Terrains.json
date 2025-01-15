@@ -3,7 +3,7 @@
 		"name": "群岛",
 		"type": "Land",
 	    //"occursOn": ["Ocean"],
-		"food": 1,
+		"food": 2,
 		"production": 1,
 		"gold": 1,
 		"movementCost": 1,
