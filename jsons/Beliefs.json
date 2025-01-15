@@ -109,14 +109,19 @@
         "uniques": ["[+1 Happiness] in cities on [River] tiles"]
     },
     {
+        "name": "Stone Circles",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Quarry]"]
+    },
+    {
         "name": "蝶之舞",
         "type": "Pantheon",
         "uniques": ["[+1 Faith] from every [灰蝶]", "[+1 Culture, +1 Happiness] from every [圣蝶]"]
     },
     {
-        "name": "Stone Circles",
+        "name": "寻宝传统",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Quarry]"]
+        "uniques": ["[+1 Faith, +1 Gold] from every [小型宝藏]","[+1 Faith, +1 Gold] from every [大型宝藏]"]
     },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
@@ -202,12 +207,12 @@
     {
         "name": "寺庙经营",
         "type": "Follower",
-        "uniques": ["[+2 Gold] from every [Shrine] <in cities with at least [2] [Followers of this Religion]>","[+3 Gold] from every [Temple] <in cities with at least [4] [Followers of this Religion]>"]
+        "uniques": ["[+2 Gold] from every [Shrine] <in cities with at least [2] [Followers of this Religion]>","[+4 Gold] from every [Temple] <in cities with at least [4] [Followers of this Religion]>"]
     },
     {
         "name": "知识交流",
         "type": "Follower",
-        "uniques": ["[+1]% [Science] from every follower, up to [10]%"]
+        "uniques": ["[+2]% [Science] from every follower, up to [20]%"]
     },
     {
         "name": "和气生财",

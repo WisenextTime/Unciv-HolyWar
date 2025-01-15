@@ -5,5 +5,5 @@
          Allow City States to spawn with additional units,
          "Can trade civilization introductions for [100] Gold"
          ],
-    constants:{maxXPfromBarbarians:90}
+    constants:{maxXPfromBarbarians:150}
 }

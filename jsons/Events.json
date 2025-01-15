@@ -1,0 +1,52 @@
+[
+	{
+		"name":"寻宝I",
+		"text":"恭喜！你刚成功将一个小型宝藏运到你的城市！你找到了——",
+		"choices":[
+			{
+				"text":"一小笔钱",
+				"uniques":["Gain [40]-[80] [Gold]"]
+			},
+			{
+				"text":"失传已久的古科技",
+				"uniques":["Free Technology","Only available <with [10]% chance>"]
+			},
+			{
+				"text":"一大笔钱",
+				"uniques":["Gain [120]-[240] [Gold]","Only available <with [15]% chance>"]
+			},
+			{
+				"text":"一艘海盗船",
+				"uniques":["Gain [40]-[80] [Gold]","Free [Settler] appears","Only available <with [15]% chance>"]
+			},
+			{
+				"text":"一块奇怪的石碑",
+				"uniques":["Gain enough Faith for [60]% of a Great Prophet","Only available <with [15]% chance> <when religion is enabled>"]
+			},
+			{
+				"text":"一本堪堪够用的间谍速成手册",
+				"uniques":["Gain an extra spy","Only available <with [5]% chance> <when espionage is enabled>"]
+			},
+			{
+				"text":"一批品质优良的作物种子",
+				"uniques":["Gain a free [优质作物种子] [in capital]","Only available <with [5]% chance> <if [优质作物种子] is not constructed>"]
+			},
+			{
+				"text":"管他是什么，下发给老百姓",
+				"uniques":["Empire enters a [6]-turn Golden Age","Only available <while the empire is happy>"]
+			},
+			{
+				"text":"一些古老的典籍",
+				"uniques":["Free Social Policy","Only available <with [5]% chance>"]
+			},
+			{
+				"text":"意外救下一位蛮族领袖!",
+				"uniques":["Free [蛮族领袖] appears","Only available <with [5]% chance>"]
+			},
+			{
+				"text":"是神迹！我们有救了！",
+				"uniques":["Gain a free [Follower] belief","Only available <with [5]% chance> <when religion is enabled> <after founding a religion>"]
+			},
+		]
+	}
+]

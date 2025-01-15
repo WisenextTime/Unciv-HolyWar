@@ -1,0 +1,32 @@
+[
+	{
+		"name": "天神PVP-光阴似箭",
+		"baseHappiness": 9,
+		"extraHappinessPerLuxury": 0,
+		"researchCostModifier": 1,
+		"unitCostModifier": 0.8,
+		"unitSupplyBase": 5,
+		"unitSupplyPerCity": 2,
+		"buildingCostModifier": 1,
+		"WonderCostModifier": 1.2,
+		"policyCostModifier": 1,
+		"unhappinessModifier": 1,
+		"barbarianBonus": 0,
+		"barbarianSpawnDelay": 0,
+		"playerBonusStartingUnits": ["民兵","民兵","Worker","开拓者"],
+		"aiCityGrowthModifier": 1,
+		"aiUnitCostModifier": 0.5,
+		"aiBuildingCostModifier": 0.5,
+		"aiWonderCostModifier": 1,
+		"aiBuildingMaintenanceModifier": 0.5,
+		"aiUnitMaintenanceModifier": 0.5,
+		"aiUnitSupplyModifier": 0.5,
+		"aiFreeTechs": ["Pottery","Animal Husbandry","Mining","The Wheel"],
+		"aiMajorCivBonusStartingUnits": ["Settler", "Worker", "Scout", "Era Starting Unit", "Era Starting Unit", "Era Starting Unit"],
+		"aiCityStateBonusStartingUnits": [],
+		"aiUnhappinessModifier": 0.6,
+		"aisExchangeTechs": true,
+		"turnBarbariansCanEnterPlayerTiles": 0,
+		"clearBarbarianCampReward": 25
+	}
+]

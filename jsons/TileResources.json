@@ -2,6 +2,7 @@
 	{
 		"name": "神圣材料",
 		"resourceType": "Strategic",
+		"revealedBy": "神圣塑造",
 		"gold": 0,
 		"happiness": 0,
 		"food": 0,
@@ -31,8 +32,8 @@
 		      "Generated on every [80] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]>"
 		      "Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in [Fresh Water] tiles>"
 		      ],
-		"majorDepositAmount": {"sparse": 8, "default": 12, "abundant": 18},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"majorDepositAmount": {"sparse": 8, "default": 12, "abundant": 8},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
 	},
 	{
 		"name": "圣蝶",
@@ -42,7 +43,24 @@
 		"faith": 2,
 		"improvement": "Holy site",
 		"uniques": ["Generated on every [55] tiles <in [Grassland] tiles>"],
-		"majorDepositAmount": {"sparse": 8, "default": 12, "abundant": 18},
-		"minorDepositAmount": {"sparse": 1, "default": 3, "abundant": 5}
+		"majorDepositAmount": {"sparse": 8, "default": 12, "abundant": 8},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	}
+	//大航海
+	{
+		"name": "小型宝藏",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Atoll"],
+		"revealedBy": "Sailing",
+		"improvement": "挖掘I",
+		"uniques": ["Generated on every [10] tiles <in [Water] tiles>"]
+	},
+	{
+		"name": "大型宝藏",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean"],
+		"revealedBy": "Sailing",
+		"improvement": "挖掘II",
+		"uniques": ["Generated on every [10] tiles <in [Water] tiles>"]
 	}
 ]

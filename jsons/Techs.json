@@ -417,7 +417,7 @@
 				"name": "秘学原理",
 				"row": 3,
 				"prerequisites": ["神秘学","Education"],
-				"uniques": [],
+				"uniques": ["May buy [求真神殿] buildings for [600] [Faith] [in all cities] at an increasing price ([100])"],
 				"quote": "'随着对神秘学探寻的愈发深入，我们越是发现神秘学的起源源远流长。从石器时代祭祀的探索到今天的主教，须渺之力伴随人类从古至今。——蓝空长老-蓝空侠客"
 			},
 			{
@@ -601,7 +601,7 @@
 				"name": "须渺无尽学",
 				"row": 7,
 				"prerequisites": ["法化秘研","Electronics"],
-				"uniques": [],
+				"uniques": ["May buy [无尽神殿] buildings for [720] [Faith] [in all cities] at an increasing price ([120])"],
 				"quote": ""
 			},
 			{

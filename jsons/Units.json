@@ -1,5 +1,22 @@
 [
-
+    {
+		"name": "民兵",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 5,
+		"cost": 50,
+		"uniques" : ["[+100]% Strength <upon entering the [Classical era]>",
+			"[-100]% maintenance costs",
+			"[+100]% Strength <upon entering the [Medieval era]>",
+			"[+100]% Strength <upon entering the [Renaissance era]>",
+			"[+100]% Strength <upon entering the [Industrial era]>",
+			"[+100]% Strength <upon entering the [Modern era]>",
+			"[+100]% Strength <upon entering the [Atomic era]>",
+			"[+100]% Strength <upon entering the [Information era]>",
+			"Unbuildable",
+			"Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
+	},
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 	//更多政策单位
 	{
@@ -7,7 +24,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 4,
-		"cost": 40,
+		"cost": 50,
 		"uniques" : ["[+100]% Strength <when defending>",
 		            "[+100]% Strength <when fighting in [Friendly Land] tiles>",
 		            "[+100]% Strength <after discovering [Iron Working]>",
@@ -45,16 +62,29 @@
 		"name": "角斗士",
 		"unitType": "Mounted",
 		"movement": 3,
-		"strength": 14,
+		"strength": 15,
 		"cost": 80,
 		"upgradesTo": "Knight",
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["[+20]% Strength <vs [Wounded] units>","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Only available <if [Circus Maximus] is constructed>","Only available <in cities with a [Colosseum]>","Never appears as a Barbarian unit"],
-		"hurryCostModifier": 25,
+		"uniques": ["[+20]% Strength <vs [Wounded] units>","No defensive terrain bonus","[-20]% Strength <vs cities> <when attacking>","Only available <if [Circus Maximus] is constructed>","Only available <in cities with a [Colosseum]>","Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
 	},
 	//蛮族
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques": [
+			  "[+20]% Strength <when defending>",]
+		"attackSound": "nonmetalhit"
+	},
 	{
 	    "name": "劫掠骑",
 		"replaces": "Chariot Archer",
@@ -77,11 +107,12 @@
 		//"unitType": "Civilian",
 		"unitType": "Mounted",
 		"uniqueTo": "Barbarians",
+		"promotions": ["蛮族荣耀"],
 		"replaces": "Great General",
 		"uniques": [
 		      "Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
-		      "[+20]% Strength bonus for [Military] units within [3] tiles",
-			  "All adjacent units heal [+10] HP when healing", "[+10] HP when healing",
+		      "[+15]% Strength bonus for [Military] units within [3] tiles",
+			  "All adjacent units heal [+5] HP when healing", "[+10] HP when healing",
 			  "[+60]% Strength <when defending>",
 			  "Great Person - [War]","Uncapturable"
 	    ],
@@ -105,7 +136,7 @@
 	{
         "name": "行天门徒",//名字
         "unitType": "神术士",//类型
-        "movement": 1,//移动步数
+        "movement": 2,//移动步数
         "strength": 2,//近战能力
         "rangedStrength": 6//远程能力
         "range": 3//射程
@@ -122,7 +153,7 @@
     {
         "name": "行天教徒",//名字
         "unitType": "神术士",//类型
-        "movement": 1,//移动步数
+        "movement": 2,//移动步数
         "strength": 4,//近战能力
         "rangedStrength": 9//远程能力
         "range": 3//射程
@@ -139,7 +170,7 @@
     {
         "name": "行天司铎",//名字
         "unitType": "神术士",//类型
-        "movement": 1,//移动步数
+        "movement": 2,//移动步数
         "strength": 7,//近战能力
         "rangedStrength": 14//远程能力
         "range": 3//射程
@@ -157,7 +188,7 @@
 	{
         "name": "行天主教",//名字
         "unitType": "神术士",//类型
-        "movement": 1,//移动步数
+        "movement": 2,//移动步数
         "strength": 14,//近战能力
         "rangedStrength": 20//远程能力
         "range": 3//射程
@@ -175,7 +206,7 @@
     {
         "name": "行天执事",//名字
         "unitType": "神术士",//类型
-        "movement": 1,//移动步数
+        "movement": 2,//移动步数
         "strength": 25,//近战能力
         "rangedStrength": 35//远程能力
         "range": 3//射程
@@ -190,6 +221,40 @@
         "attackSound": "arrow"
     },
     {
+        "name": "行天特使",//名字
+        "unitType": "神术士",//类型
+        "movement": 2,//移动步数
+        "strength": 50,//近战能力
+        "rangedStrength": 60//远程能力
+        "range": 3//射程
+        "cost": 350,//制造
+        "requiredTech": "永动力法",//需要科技
+        "promotions": [],
+        "uniques": ["[-15]% Strength <vs [Melee] units> <when attacking>",//单位特性
+                   "[-15]% Strength <vs [Ranged] units> <when defending>",
+                   "[-15]% Strength <vs cities>"
+        ],
+        "attackSound": "arrow"
+    },
+    {
+        "name": "行天使者",//名字
+        "unitType": "神术士",//类型
+        "movement": 3,//移动步数
+        "strength": 80,//近战能力
+        "rangedStrength": 90//远程能力
+        "range": 3//射程
+        "cost": 400,//制造
+        "requiredTech": "造神计划",//需要科技
+        "requiredResource": "圣蝶",
+        "promotions": [],
+        "uniques": ["[-10]% Strength <vs [Melee] units> <when attacking>",//单位特性
+                   "[-10]% Strength <vs [Ranged] units> <when defending>",
+                   "[-10]% Strength <vs cities>",
+                   "Unit will heal every turn, even if it performs an action"
+        ],
+        "attackSound": "arrow"
+    },
+    {
 		"name": "行天勇士",
 		"unitType": "圣战士",
 		"movement": 3,
@@ -197,6 +262,7 @@
 		"cost": 90,
 		"requiredTech": "神学刻印",
 		"obsoleteTech": "飞升理论",
+		"upgradesTo": "行天骑士",
 		"requiredResource": "晶矿",
 		"promotions": [],
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Can move after attacking", "[20]% Strength <when attacking>"],
@@ -210,6 +276,7 @@
 		"cost": 245,
 		"requiredTech": "飞升理论",
 		"obsoleteTech": "秘学科研",
+		"upgradesTo": "行天圣斗士",
 		"requiredResource": "神圣材料",
 		"promotions": [],
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Can move after attacking", "[20]% Strength <when attacking>"],
@@ -223,9 +290,36 @@
 		"cost": 380,
 		"requiredTech": "秘学科研",
 		"obsoleteTech": "须渺无尽学",
+		"upgradesTo": "行天长生骑士",
 		"requiredResource": "神圣材料",
 		"promotions": [],
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Can move after attacking", "[20]% Strength <when attacking>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "行天长生骑士",
+		"unitType": "圣战士",
+		"movement": 5,
+		"strength": 80,
+		"cost": 420,
+		"requiredTech": "须渺无尽学",
+		"obsoleteTech": "造神计划",
+		"requiredResource": "神圣材料",
+		"upgradesTo": "战争天使",
+		"promotions": [],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Can move after attacking", "[20]% Strength <when attacking>","Unit will heal every turn, even if it performs an action"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "战争天使",
+		"unitType": "圣战士",
+		"movement": 6,
+		"strength": 120,
+		"cost": 480,
+		"requiredTech": "造神计划",
+		"requiredResource": "神圣材料",
+		"promotions": [],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Can move after attacking", "[20]% Strength <when attacking>","[+5] HP when healing","Unit will heal every turn, even if it performs an action"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -239,7 +333,7 @@
 		"cost": 100,
 		"requiredTech": "信仰驱动",
 		"obsoleteTech": "秘学原理",
-		//"upgradesTo": "Jet Fighter",
+		"upgradesTo": "信天鸽",
 		"uniques": ["[+20]% Strength <vs [Melee] units>",
 		            "[-20]% Strength <vs [Ranged] units>"
 		            ],
@@ -248,16 +342,98 @@
 	{
 		"name": "信天鸽",
 		"unitType": "灵物-鸽",
-		"movement": 10,
-		"strength": 30,
-		"rangedStrength": 30,
+		"movement": 25,
+		"strength": 25,
+		"rangedStrength": 25,
 		"range": 5,
 		"interceptRange": 5,
-		"cost": 300,
+		"cost": 250,
 		"requiredTech": "秘学原理",
+		"obsoleteTech": "法化秘研",
+		"upgradesTo": "行天鸽",
+		"uniques": ["[+20]% Strength <vs [Melee] units>",
+		            "[-20]% Strength <vs [Ranged] units>",
+		            "[20]% chance to intercept air attacks"
+		           //"Invisible to others"
+		           ],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "行天鸽",
+		"unitType": "灵物-鸽",
+		"movement": 14,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 7,
+		"interceptRange": 7,
+		"cost": 350,
+		"requiredTech": "法化秘研",
+		"obsoleteTech": "造神计划",
+		"upgradesTo": "行天圣鸽",
+		"uniques": ["[+20]% Strength <vs [Melee] units>",
+		            "[-20]% Strength <vs [Ranged] units>",
+		            "[50]% chance to intercept air attacks"
+		           //"Invisible to others"
+		           ],
+		"attackSound": "arrow"
+	},
+	{
+	
+		"name": "行天圣鸽",
+		"unitType": "灵物-鸽",
+		"movement": 18,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 9,
+		"interceptRange": 9,
+		"cost": 375,
+		"requiredTech": "须渺无尽学",
+		"obsoleteTech": "造神计划",
+		"requiredResource": "圣蝶",
+		"upgradesTo": "鸽天侍",
+		"uniques": ["[+20]% Strength <vs [Melee] units>",
+		            "[-20]% Strength <vs [Ranged] units>",
+		            "[100]% chance to intercept air attacks"
+		           //"Invisible to others"
+		           ],
+		"attackSound": "arrow"
+	},
+	{
+	
+		"name": "鸽天侍",
+		"unitType": "灵物-鸽",
+		"movement": 24,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 12,
+		"interceptRange": 12,
+		"cost": 400,
+		"requiredTech": "造神计划",
+		"upgradesTo": "鸽天使",
 		//"upgradesTo": "Jet Fighter",
 		"uniques": ["[+20]% Strength <vs [Melee] units>",
-		            "[-20]% Strength <vs [Ranged] units>"
+		            "[-20]% Strength <vs [Ranged] units>",
+		            "[100]% chance to intercept air attacks"
+		           //"Invisible to others"
+		           ],
+		"attackSound": "arrow"
+	},
+	{
+	
+		"name": "鸽天使",
+		"unitType": "灵物-鸽",
+		"movement": 18,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 20,
+		"interceptRange": 20,
+		"cost": 480,
+		"requiredTech": "造神计划",
+		"requiredResource": "圣蝶",
+		"uniques": ["[+20]% Strength <vs [Melee] units>",
+		            "[-20]% Strength <vs [Ranged] units>",
+		            "[100]% chance to intercept air attacks",
+		            "Unit will heal every turn, even if it performs an action"
 		           //"Invisible to others"
 		           ],
 		"attackSound": "arrow"
@@ -270,16 +446,39 @@
 		"requiredResource": "圣蝶",
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"All adjacent units heal [+10] HP when healing",
+			"[-15]% Strength for enemy [All] units in adjacent [All] tiles",
 			"[+2] Sight", "Only available <when religion is enabled>", "Uncapturable", "Religious Unit"
 		],
 		"movement": 3
+	},
+	{
+		"name": "末日使徒",
+		"unitType": "Atomic Bomber",
+		//"requiredResource": "末日恩赐",
+		"movement": 16,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 16,
+		"cost": 450,
+		"requiredTech": "永动力法",
+		"uniques": [
+		      "[-100]% maintenance costs",
+		      "Nuclear weapon of Strength [1]",
+		      "Self-destructs when attacking",
+		      //"Only available <in cities with a [末日启示]>",
+		      "Limited to [3] per Civilization",
+		      "Only available <if [末日祭坛] is constructed>",
+		      "Blast radius [1]"
+		],
+		"attackSound": "choir"
+		//让末日来饶恕你们的罪行吧
 	},
     //说客序列
 	{
 		"name": "说客",
 		"unitType": "Archery",
-		"movement": 2,
+		"movement": 4,
 		"strength": 3
         "rangedStrength": 3
         "range": 1
@@ -298,7 +497,7 @@
 	{
 		"name": "劝降者",
 		"unitType": "Archery",
-		"movement": 2,
+		"movement": 4,
 		"strength": 6
         "rangedStrength": 6
         "range": 1
@@ -317,7 +516,7 @@
 	{
 		"name": "贿赂者",
 		"unitType": "Archery",
-		"movement": 2,
+		"movement": 4,
 		"strength": 9
         "rangedStrength": 9
         "range": 2
@@ -336,7 +535,7 @@
 	{
 		"name": "宣传队",
 		"unitType": "Archery",
-		"movement": 2,
+		"movement": 4,
 		"strength": 9
         "rangedStrength": 12
         "range": 4
@@ -355,9 +554,9 @@
 	{
 		"name": "黑客",
 		"unitType": "Archery",
-		"movement":2,
+		"movement":4,
 		"strength": 1
-        "rangedStrength": 18
+        "rangedStrength": 12
         "range": 8,
 		"cost": 300,
 		"uniques" : ["[+50]% Strength <vs [Wounded] units> <when attacking>",
@@ -369,5 +568,21 @@
 		"requiredTech": "Globalization",//需要科技
 		"attackSound": "notification1",
 	},
+	//大海航
+	{
+		"name": "宝藏船",
+		"unitType": "Civilian Water",
+		"cost": 100,
+		"movement": 4,
+		"requiredTech": "Sailing"
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Can build [挖掘I] improvements on tiles <for [{non-[满载I]} {non-[满载II]}] units>",
+			"Can build [挖掘II] improvements on tiles <for [{non-[满载I]} {non-[满载II]}] units>",
+			"[This Unit] gains the [满载I] promotion <upon building a [挖掘I] improvement>",
+			"[This Unit] gains the [满载II] promotion <upon building a [挖掘II] improvement>",
+			"Triggers a [寻宝I] event <in [City center] tiles> <for [满载I] units> <removing the [满载I] promotion/status>",
+			"May enter foreign tiles without open borders"]
+	}
 	//结束线
 ]

@@ -64,7 +64,7 @@
 	},
 	{
 		"name": "圣法",
-		"uniques": ["[+20]% Strength","[1] Sight"],
+		"uniques": ["[+20]% Strength","[2] Sight"],
 		"prerequisites": ["守护III","杀伐III"],
 		"unitTypes": ["圣战士"]
 	}
@@ -129,7 +129,7 @@
 	},
 	{
 		"name": "神法",
-		"uniques": ["[+20]% Strength","[1] Sight"],
+		"uniques": ["[+20]% Strength","[2] Sight"],
 		"prerequisites": ["御法III","行法III"],
 		"unitTypes": ["神术士"]
 	},
@@ -191,6 +191,15 @@
 		"uniques": ["[+4] HP when healing"],
 		"prerequisites": ["汇聚IV"],
 		"unitTypes": ["灵物-鸽"]
+	},
+	//大航海
+	{
+		"name": "满载I",
+		"uniques": ["代表该宝藏船已满载而归"]
+	},
+	{
+		"name": "满载II",
+		"uniques": ["代表该宝藏船已满载而归"]
 	},
 	//奇观
 	{

@@ -37,6 +37,21 @@
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	},
+	//大航海
+	{
+		"name": "挖掘I",
+		"turnsToBuild": 13,
+		"shortcutKey": "D",
+		"uniques": ["Excluded from map editor","Can only be built to improve a resource","Can be built outside your borders","Unpillagable","Irremovable","Unbuildable <for [non-[宝藏船]] units>"],
+		"civilopediaText": [{"text":"对小型宝藏进行挖掘"}]
+	},
+	{
+		"name": "挖掘II",
+		"turnsToBuild": 20,
+		"shortcutKey": "D",
+		"uniques": ["Excluded from map editor","Can only be built to improve a resource","Can be built outside your borders","Unpillagable","Irremovable","Unbuildable <for [non-[宝藏船]] units>"],
+		"civilopediaText": [{"text":"对大型宝藏进行挖掘"}]
+	},
 //重铸蛮族荣光，我辈义不容辞
 	{
 		"name": "Barbarian encampment",
